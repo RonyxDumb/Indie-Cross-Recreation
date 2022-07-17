@@ -64,6 +64,10 @@ class ChooseSubState extends MusicBeatSubstate
 		var rightP = controls.RIGHT_P;
 		var accepted = controls.ACCEPT;
 
+                #if android
+                addVirtualPad(FULL, A_B);
+                #end
+
 		if (leftP && curSelected >= 2)
 		{
 			FlxG.sound.play(Paths.sound('scrollMenu'));
