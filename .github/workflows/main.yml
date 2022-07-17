@@ -48,6 +48,8 @@ jobs:
           haxelib install hxcpp > /dev/null
           haxelib install lime
           haxelib install hxCodec
+          haxelib install hxCodec
+          haxelib install extension-androidtools
           haxelib install openfl
           haxelib --never install flixel
           haxelib run lime setup flixel
@@ -58,6 +60,7 @@ jobs:
           haxelib git linc_luajit https://github.com/jigsaw-4277821/linc_luajit.git --quiet 
           haxelib git extension-webm https://github.com/Sirox228/extension-webm
           haxelib install actuate
+          haxelib istall
           haxelib list
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
