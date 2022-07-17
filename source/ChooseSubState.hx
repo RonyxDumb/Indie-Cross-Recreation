@@ -28,6 +28,10 @@ class ChooseSubState extends MusicBeatSubstate
 	{
 		super.create();
 
+                #if android
+                addVirtualPad(FULL, A_B);
+                #end
+
 		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
 		bg.alpha = 0;
 		bg.scrollFactor.set();
@@ -64,9 +68,7 @@ class ChooseSubState extends MusicBeatSubstate
 		var rightP = controls.RIGHT_P;
 		var accepted = controls.ACCEPT;
 
-                #if android
-                addVirtualPad(FULL, A_B);
-                #end
+                
 
 		if (leftP && curSelected >= 2)
 		{
