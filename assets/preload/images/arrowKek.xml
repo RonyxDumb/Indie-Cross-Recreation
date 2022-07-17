@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="arrowKek.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="arows0000" x="0" y="0" width="66" height="103" pivotX="0" pivotY="0.4"/>
+	<SubTexture name="arows0001" x="0" y="0" width="66" height="103"/>
+	<SubTexture name="arows0002" x="0" y="0" width="66" height="103"/>
+	<SubTexture name="arows0003" x="0" y="103" width="66" height="103"/>
+	<SubTexture name="arows0004" x="0" y="103" width="66" height="103"/>
+	<SubTexture name="arows0005" x="0" y="103" width="66" height="103"/>
+</TextureAtlas>
