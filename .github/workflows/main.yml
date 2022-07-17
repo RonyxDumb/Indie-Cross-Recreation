@@ -47,7 +47,6 @@ jobs:
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null
           haxelib install lime
-          haxelib install extension-androidtools
           haxelib install hxCodec
           haxelib install openfl
           haxelib --never install flixel
