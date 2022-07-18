@@ -59,6 +59,10 @@ class FreeplayExtraState extends MusicBeatState
 		 DiscordClient.changePresence("In the Freeplay Menu", null);
 		 #end
 
+                #if android
+                addVirtualPad(FULL, A_B);
+                #end
+
 		var isDebug:Bool = false;
 
 		#if debug
