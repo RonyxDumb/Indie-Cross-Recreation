@@ -41,10 +41,7 @@ class FreeplayExtraState extends MusicBeatState
 
 	override function create()
 	{
-                #if android
-                addVirtualPad(FULL, A_B);
-                #end
-
+                
 
 		//if (bonusOrNot)
 		var initSonglist = CoolUtil.coolTextFile(Paths.txt('bonusSonglist'));
@@ -144,6 +141,11 @@ class FreeplayExtraState extends MusicBeatState
 			// scoreText.textField.htmlText = md;
 			trace(md);
 		 */
+
+                #if android
+                addVirtualPad(FULL, A_B);
+                #end
+
 
 		super.create();
 	}
