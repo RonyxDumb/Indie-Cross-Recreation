@@ -41,6 +41,11 @@ class FreeplayExtraState extends MusicBeatState
 
 	override function create()
 	{
+                #if android
+                addVirtualPad(FULL, A_B);
+                #end
+
+
 		//if (bonusOrNot)
 		var initSonglist = CoolUtil.coolTextFile(Paths.txt('bonusSonglist'));
 		
@@ -59,9 +64,7 @@ class FreeplayExtraState extends MusicBeatState
 		 DiscordClient.changePresence("In the Freeplay Menu", null);
 		 #end
 
-                #if android
-                addVirtualPad(FULL, A_B);
-                #end
+                
 
 		var isDebug:Bool = false;
 
