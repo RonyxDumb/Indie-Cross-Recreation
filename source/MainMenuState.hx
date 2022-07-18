@@ -304,8 +304,8 @@ class MainMenuState extends MusicBeatState
 				FlxG.switchState(new StoryMenuState());
 				trace("Story Menu Selected");
 			case 'freeplay':
-				//FlxG.switchState(new FreeplayState());
-                super.openSubState(new ChooseSubState());
+				FlxG.switchState(new FreeplayState());
+               //super.openSubState(new ChooseSubState());
 				trace("Freeplay Menu Selected");
 
 			case 'options':
