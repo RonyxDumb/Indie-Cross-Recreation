@@ -1,6 +1,6 @@
 ![Kade Engine logo](https://user-images.githubusercontent.com/26305836/110529589-4b4eb600-80ce-11eb-9c44-e899118b0bf0.png)
 
-> [!INFORMATION]
+> [!WARNING]
 > Progetto del 2022 la cui intenzione era ricreare Indie Cross utilizzando Kade Engine, in modo di renderlo giocabile a quei tempi che il codice sorgente ancora non veninva caricato.
 > Ora si trova qui perchè l'altro account su cui era stato caricato è stato eliminato poichè inutile, perciò lo conservo qui.
 
