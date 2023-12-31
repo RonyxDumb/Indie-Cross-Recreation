@@ -14,4 +14,5 @@
 - Assicurati di aver installato [Haxe 4.2.5](https://haxe.org/download/version/4.2.5/)
 - Per installare le librerie necessarie, nel [cmd](il terminale) devi digitare:
     > haxelib install hmm
+
     > haxelib run hmm install
