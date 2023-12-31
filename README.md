@@ -9,3 +9,9 @@
 (C) Indie Cross (2022) -> ottimi programmatori hanno dato vita a questo gioco
 
 (C) Friday Night Funkin' (2021) -> indie cross è una mod di questo gioco
+
+### COME INSTALLARE TUTTE LE LIBRERIE / COMPILARE IL GIOCO
+1 - Assicurati di aver installato [Haxe 4.2.5](https://haxe.org/download/version/4.2.5/)
+2 - Per installare le librerie necessarie, nel [cmd](il terminale) devi digitare:
+    > haxelib install hmm
+    > haxelib run hmm install
