@@ -7,4 +7,5 @@
 (C) RonyxDumb (2022) -> i poveri codici scritti in questo repository 
 
 (C) Indie Cross (2022) -> ottimi programmatori hanno dato vita a questo gioco
+
 (C) Friday Night Funkin' (2021) -> indie cross è una mod di questo gioco
