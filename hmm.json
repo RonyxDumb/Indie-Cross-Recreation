@@ -1,0 +1,77 @@
+{
+	"dependencies": [
+	  {
+		"name": "lime",
+		"type": "haxelib",
+		"version": "7.9.0"
+	  },
+	  {
+		"name": "openfl",
+		"type": "haxelib",
+		"version": "9.3.0"
+	  },
+	  {
+		"name": "flixel",
+		"type": "haxelib",
+		"version": null
+	  },
+	  {
+		"name": "flixel-addons",
+		"type": "haxelib",
+		"version": null
+	  },
+	  {
+		"name": "flixel-tools",
+		"type": "haxelib",
+		"version": null
+	  },
+	  {
+		"name": "flixel-ui",
+		"type": "haxelib",
+		"version": null
+	  },
+	  {
+		"name": "hxcpp",
+		"type": "haxelib",
+		"version": null
+	  },
+      {
+        "name": "actuate",
+        "type": "haxelib",
+        "version": null
+      },
+      {
+        "name": "linc_luajit",
+        "type": "git",
+        "dir": null,
+        "ref": null,
+        "url": "https://github.com/nebulazorua/linc_luajit"
+      },
+      {
+        "name": "hxvm-luajit",
+        "type": "git",
+        "dir": null,
+        "ref": null,
+        "url": "https://github.com/nebulazorua/hxvm-luajit"
+      },
+      {
+        "name": "discord_rpc",
+        "type": "git",
+        "dir": null,
+        "ref": null,
+        "url": "https://github.com/Aidan63/linc_discord-rpc"
+      },
+      {
+        "name": "extension-webm",
+        "type": "git",
+        "dir": null,
+        "ref": null,
+        "url": "https://github.com/KadeDev/extension-webm"
+      },
+	  {
+		"name": "hscript",
+		"type": "haxelib",
+		"version": null
+	  }
+	]
+  }
